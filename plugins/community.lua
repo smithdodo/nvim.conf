@@ -12,6 +12,7 @@ return {
   { import = "astrocommunity.diagnostics.trouble-nvim" },
   -- { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
+  { import = "astrocommunity.bars-and-lines.vim-illuminate" },
   -- { import = "astrocommunity.workflow.hardtime-nvim" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
   { -- further customize the options set by the community
