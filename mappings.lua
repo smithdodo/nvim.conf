@@ -32,6 +32,11 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    ["[c"] = {
+      function() require("treesitter-context").go_to_context() end,
+      silent = true,
+      desc = "Jum to context (upwards)",
+    },
   },
   t = {
     -- setting a mapping to false will disable it
